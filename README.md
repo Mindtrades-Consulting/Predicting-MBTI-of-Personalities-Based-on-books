@@ -1,2 +1,14 @@
 # Predicting-MBTI-of-Personalities-Based-on-books
 Personality prediction tools have been a significant player in the business world. Whether it's about hiring employees or tailor products as per the customer's need, this tool is being used everywhere for fact-based decisions. One such personality inventory used worldwide is Myers-Briggs Type Indicator (MBTI).   According to BBC, 89 of Fortune 100 companies use MBTI in hiring processes and in the workplace to build stronger, more effective teams and healthy organizations. Analytics and an understanding of customer's personality types help in customized product development and problem-solving. According to Harvard Business Reviews, assessing a customer's personality type at the beginning of a call can cut repeat calls by 40%.   This article will use MBTI to predict different celebrities' personalities based on their suggestions for books. 
+# Data Source
+The dataset used for the personality assessment is imported from Kaggle. This dataset contains data collected through the PersonalityCafe forum and has more than 8,000 rows consisting of personality types with 50 different posts.  
+We also looked at different sites that have the recommendation of books by celebrities. By this data, we will figure out the personality they are having with Myers-Briggs Type Indicator(MBTI). Using MBTI, we understand celebrities' characters, including their likes, dislikes, strengths, weaknesses, and compatibility with other people.
+# Data Analysis
+First, we request a web page and then scrape the data from different websites using Python library request and BeautifulSoup, which is used to pull data out of HTML. After scraping, the description of the book, we get all the information about that specific personality. We cleaned the data by removing URLs, converted them to lowercase, tokenizer, punctuation removal, and removing stopwords.
+
+The Myers-Briggs Type Indicator focuses on four parameters - extraversion, thinking, sensing, and judging. According to MBTI,  people must be dominant in one area or the other. Let's discuss these four spectrums.
+
+We scraped the data from Favobooks. The site includes books recommended by thinkers, pioneers, entrepreneurs, and visionaries. For our analysis, we scraped the description of books recommended by the personalities. After that, we define a function that inputs the scraped data, tokenizes them, and then predicts the output based on our classifiers.
+# How Can MindTrades help?
+MindTrades Consulting Services, a leading marketing agency provides in-depth analysis and insights for the global IT sector including leading data integration brands such as Diyotta. From Cloud Migration, Big Data, Digital Transformation, Agile Deliver, Cyber Security, to Analytics- Mind trades provides published breakthrough ideas, and prompt content delivery. For more information, check [mindtrades.com].
+
