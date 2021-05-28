@@ -10,5 +10,5 @@ The Myers-Briggs Type Indicator focuses on four parameters - extraversion, think
 
 We scraped the data from Favobooks. The site includes books recommended by thinkers, pioneers, entrepreneurs, and visionaries. For our analysis, we scraped the description of books recommended by the personalities. After that, we define a function that inputs the scraped data, tokenizes them, and then predicts the output based on our classifiers.
 # How Can MindTrades help?
-MindTrades Consulting Services, a leading marketing agency provides in-depth analysis and insights for the global IT sector including leading data integration brands such as Diyotta. From Cloud Migration, Big Data, Digital Transformation, Agile Deliver, Cyber Security, to Analytics- Mind trades provides published breakthrough ideas, and prompt content delivery. For more information, check [mindtrades.com].
+MindTrades Consulting Services, a leading marketing agency provides in-depth analysis and insights for the global IT sector including leading data integration brands such as Diyotta. From Cloud Migration, Big Data, Digital Transformation, Agile Deliver, Cyber Security, to Analytics- Mind trades provides published breakthrough ideas, and prompt content delivery. For more information, check [{mindtrades.com}].
 
